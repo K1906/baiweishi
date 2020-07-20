@@ -1,5 +1,5 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages测试而已
 		{
 			"path": "pages/PersonalCenter/PersonalCenter",
 			"style": {
