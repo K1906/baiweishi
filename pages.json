@@ -1,0 +1,234 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/PersonalCenter/PersonalCenter",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#1a191f"
+				
+			}
+		},
+		{
+			
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "百威师",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#219975"
+			}
+		},
+		{
+			"path": "pages/index/classinnerpage",
+			"style": {
+				"navigationBarTitleText": "百威师",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#219975",
+				"h5": {
+				                    "titleNView": {
+				                        "buttons": [{
+				                                "fontSize": "35upx",
+				                                "float": "left"
+				                            }
+				                        ]
+				                    }
+				 }
+			}
+		},
+		{
+			"path": "pages/index/search",
+			"style": {
+				"navigationBarTitleText": "百威师",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#219975",
+				"h5": {
+				                    "titleNView": {
+				                        "buttons": [{
+				                                "fontSize": "35upx",
+				                                "float": "left"
+				                            }
+				                        ]
+				                    }
+				 }
+			}
+		},
+		{
+			"path": "pages/index/goods/goodsDetails",
+			"style": {
+				"navigationBarTitleText": "百威师",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#219975",
+				"h5": {
+				                    "titleNView": {
+				                        "buttons": [{
+				                                "fontSize": "35upx",
+				                                "float": "left"
+				                            }
+				                        ]
+				                    }
+				 }
+			}
+		},
+		{
+			"path": "pages/index/goods/stores",
+			"style": {
+				"navigationBarTitleText": "百威师",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#219975",
+				"h5": {
+				                    "titleNView": {
+				                        "buttons": [{
+				                                "fontSize": "35upx",
+				                                "float": "left"
+				                            }
+				                        ]
+				                    }
+				 }
+			}
+		},
+		{
+			"path": "pages/index/goods/shoppingcart",
+			"style": {
+				"navigationBarTitleText": "百威师",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#219975",
+				"h5": {
+				                    "titleNView": {
+				                        "buttons": [{
+				                                "fontSize": "35upx",
+				                                "float": "left"
+				                            }
+				                        ]
+				                    }
+				 }
+			}
+		},
+		{
+		    "path" : "pages/index/integral/goods_dateil",
+		    "style": {
+		    	"navigationBarTitleText": "百威师",
+		    	"navigationBarTextStyle": "white",
+		    	"navigationBarBackgroundColor": "#219975",
+		    	"h5": {
+		    	                    "titleNView": {
+		    	                        "buttons": [{
+		    	                                "fontSize": "35upx",
+		    	                                "float": "left"
+		    	                            }
+		    	                        ]
+		    	                    }
+		    	 }
+		    }
+		},
+		{
+		    "path" : "pages/index/integral/integralOrder",
+		    "style": {
+		    	"navigationBarTitleText": "百威师",
+		    	"navigationBarTextStyle": "white",
+		    	"navigationBarBackgroundColor": "#219975",
+		    	"h5": {
+		    	                    "titleNView": {
+		    	                        "buttons": [{
+		    	                                "fontSize": "35upx",
+		    	                                "float": "left"
+		    	                            }
+		    	                        ]
+		    	                    }
+		    	 }
+		    }
+		},
+		{
+			"path": "pages/PersonalCenter/AddressManagement/AddressManagement",
+			"style": {
+				"navigationBarTitleText": "百威师",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#219975",
+				"h5": {
+				                    "titleNView": {
+				                        "buttons": [{
+				                                "fontSize": "35upx",
+				                                "float": "left"
+				                            }
+				                        ]
+				                    }
+				 }
+			}
+		},
+		{
+			"path": "pages/PersonalCenter/AddressManagement/addAddress",
+			"style": {
+				"navigationBarTitleText": "百威师",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#219975",
+				"h5": {
+				                    "titleNView": {
+				                        "buttons": [{
+				                                "fontSize": "35upx",
+				                                "float": "left"
+				                            }
+				                        ]
+				                    }
+				 }
+			}
+		},
+		{
+			"path": "pages/PersonalCenter/integral/integral",
+			"style": {
+				"navigationBarTitleText": "百威师",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#219975",
+				"h5": {
+				                    "titleNView": {
+				                        "buttons": [{
+				                                "fontSize": "35upx",
+				                                "float": "left"
+				                            }
+				                        ]
+				                    }
+				 }
+			}
+		},
+		{
+			"path": "pages/PersonalCenter/Order/orderlist",
+			"style": {
+				"navigationBarTitleText": "百威师",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#219975",
+				"h5": {
+				                    "titleNView": {
+				                        "buttons": [{
+				                                "fontSize": "35upx",
+				                                "float": "left"
+				                            }
+				                        ]
+				                    }
+				 }
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#000",
+		"selectedColor": "#333333",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/home.png",
+				"selectedIconPath": "/static/home1.png",
+				"text": "商城"
+			}, 
+			{
+				"pagePath": "pages/PersonalCenter/PersonalCenter",
+				"iconPath": "/static/my.png",
+				"selectedIconPath": "/static/my1.png",
+				"text": "我的"
+			}
+		]
+	}
+}
